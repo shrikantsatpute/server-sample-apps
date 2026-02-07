@@ -8,7 +8,7 @@ WORKDIR /
 COPY package*.json ./
 
 # Copy npmrc
-COPY .npmrc ./
+# COPY .npmrc ./
 
 # Install dependencies
 RUN npm install
